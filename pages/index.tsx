@@ -14,13 +14,13 @@ const Home: NextPage = () => {
   return (
     <Box
       sx={{
-        backgroundColor: "white",
+        backgroundColor: "#FFF2E1",
       }}
     >
       <AppBar position="static">
         <Toolbar
           variant="dense"
-          sx={{ bgcolor: "darklategray", height: 1 }}
+          sx={{ bgcolor: "#011627", height: 1 }}
         ></Toolbar>
       </AppBar>
       <Toolbar
@@ -65,42 +65,42 @@ const Home: NextPage = () => {
         container
         spacing={2}
         sx={{
-          mt: 5,
+          mt: 10,
           width: 2 / 3,
           mx: "auto",
         }}
       >
-        <Grid item xs={12}>
-          <Card>
-            <CardContent sx={{ textAlign: "center" }}>
+        <Grid item xs={8}>
+          <Card raised={true} sx={{ bgcolor: "#FFF2E1", borderRadius: 2 }}>
+            <CardContent sx={{ textAlign: "center", bgcolor: "#FFF2E1" }}>
               <Typography>About</Typography>
             </CardContent>
           </Card>
         </Grid>
-        <Grid item xs={6}>
-          <Card>
-            <CardContent sx={{ textAlign: "center" }}>
+        <Grid item xs={4}>
+          <Card raised={true} sx={{ bgcolor: "#FFF2E1", borderRadius: 2 }}>
+            <CardContent sx={{ textAlign: "center", bgcolor: "#FFF2E1" }}>
               <Typography>Projects</Typography>
             </CardContent>
           </Card>
         </Grid>
-        <Grid item xs={6} sx={{ textAlign: "center" }}>
-          <Card>
-            <CardContent>
+        <Grid item xs={4}>
+          <Card raised={true} sx={{ bgcolor: "#FFF2E1", borderRadius: 2 }}>
+            <CardContent sx={{ textAlign: "center", bgcolor: "#FFF2E1" }}>
               <Typography>LinkedIn</Typography>
             </CardContent>
           </Card>
         </Grid>
-        <Grid item xs={6} sx={{ textAlign: "center" }}>
-          <Card>
-            <CardContent>
+        <Grid item xs={4}>
+          <Card raised={true} sx={{ bgcolor: "#FFF2E1", borderRadius: 2 }}>
+            <CardContent sx={{ textAlign: "center", bgcolor: "#FFF2E1" }}>
               <Typography>Github</Typography>
             </CardContent>
           </Card>
         </Grid>
-        <Grid item xs={6} sx={{ textAlign: "center" }}>
-          <Card>
-            <CardContent>
+        <Grid item xs={4}>
+          <Card raised={true} sx={{ bgcolor: "#FFF2E1", borderRadius: 2 }}>
+            <CardContent sx={{ textAlign: "center", bgcolor: "#FFF2E1" }}>
               <Typography>Resume</Typography>
             </CardContent>
           </Card>
