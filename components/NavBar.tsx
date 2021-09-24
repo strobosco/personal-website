@@ -28,7 +28,14 @@ const NavBar: NextPage = () => {
       <Box sx={{ flexGrow: 1, height: 20 }}>
         <AppBar position="static" sx={{ height: 80, bgcolor: "#212121" }}>
           <Toolbar>
-            <Typography sx={{ lineHeight: 8, ml: 20, fontSize: 38 }}>
+            <Typography
+              sx={{
+                lineHeight: 8,
+                ml: 20,
+                fontSize: 38,
+                fontFamily: "Gill Sans",
+              }}
+            >
               Niccolo Nobili
             </Typography>
             <Box sx={{ position: "absolute", right: 0, mr: 20 }}>
