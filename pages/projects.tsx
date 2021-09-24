@@ -9,6 +9,7 @@ import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import { Button } from "@mui/material";
+import Link from "next/link";
 
 const Projects: NextPage = () => {
   return (
@@ -28,6 +29,24 @@ const Projects: NextPage = () => {
           mt: 5,
         }}
       >
+        <Typography>
+          <Link href="/">
+            <Button
+              variant="outlined"
+              sx={{
+                ml: 10,
+                fontSize: 28,
+                textAlign: "left",
+                borderColor: "#FFF2E1",
+                color: "#011627",
+                width: "100%",
+                p: 0,
+              }}
+            >
+              Back
+            </Button>
+          </Link>
+        </Typography>
         <Typography
           variant="h2"
           component="div"
