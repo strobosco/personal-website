@@ -54,7 +54,9 @@ const Home: NextPage = () => {
           }}
         >
           Hi, I'm Niccolo! I'm a Pitt student who's looking to enter the world
+          <br />
           of software! My passions include Software Development, Cloud
+          <br />
           Computing, Cybersecurity and Intelligent systems!
         </Typography>
       </Toolbar>
