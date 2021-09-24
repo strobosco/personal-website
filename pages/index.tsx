@@ -17,7 +17,7 @@ const Home: NextPage = () => {
   return (
     <Box
       sx={{
-        backgroundColor: "#FFF2E1",
+        backgroundColor: "#011627",
       }}
     >
       <AppBar position="static">
@@ -35,7 +35,7 @@ const Home: NextPage = () => {
           variant="h2"
           component="div"
           sx={{
-            color: "black",
+            color: "white",
             flexGrow: 1,
             textAlign: "center",
             fontStyle: "normal",
@@ -48,7 +48,7 @@ const Home: NextPage = () => {
           variant="body1"
           component="div"
           sx={{
-            color: "black",
+            color: "white",
             flexGrow: 1,
             textAlign: "center",
             fontStyle: "normal",
@@ -74,14 +74,14 @@ const Home: NextPage = () => {
         }}
       >
         <Grid item xs={8}>
-          <Card raised={true} sx={{ bgcolor: "#FFF2E1", borderRadius: 2 }}>
-            <CardContent sx={{ textAlign: "center", bgcolor: "#FFF2E1" }}>
+          <Card raised={true} sx={{ bgcolor: "#011627", borderRadius: 2 }}>
+            <CardContent sx={{ textAlign: "center", bgcolor: "#011627" }}>
               <Link href="/about">
                 <Button
                   variant="outlined"
                   sx={{
-                    borderColor: "#FFF2E1",
-                    color: "#011627",
+                    borderColor: "#011627",
+                    color: "white",
                     width: "100%",
                     p: 0,
                   }}
@@ -93,14 +93,14 @@ const Home: NextPage = () => {
           </Card>
         </Grid>
         <Grid item xs={4}>
-          <Card raised={true} sx={{ bgcolor: "#FFF2E1", borderRadius: 2 }}>
-            <CardContent sx={{ textAlign: "center", bgcolor: "#FFF2E1" }}>
+          <Card raised={true} sx={{ bgcolor: "#011627", borderRadius: 2 }}>
+            <CardContent sx={{ textAlign: "center", bgcolor: "#011627" }}>
               <Link href="/projects">
                 <Button
                   variant="outlined"
                   sx={{
-                    borderColor: "#FFF2E1",
-                    color: "#011627",
+                    borderColor: "#011627",
+                    color: "white",
                     width: "100%",
                     p: 0,
                   }}
@@ -112,8 +112,8 @@ const Home: NextPage = () => {
           </Card>
         </Grid>
         <Grid item xs={4}>
-          <Card raised={true} sx={{ bgcolor: "#FFF2E1", borderRadius: 2 }}>
-            <CardContent sx={{ textAlign: "center", bgcolor: "#FFF2E1" }}>
+          <Card raised={true} sx={{ bgcolor: "#011627", borderRadius: 2 }}>
+            <CardContent sx={{ textAlign: "center", bgcolor: "#011627" }}>
               <a
                 href="https://www.linkedin.com/in/niccolonobili/"
                 target="_blank"
@@ -122,8 +122,8 @@ const Home: NextPage = () => {
                 <Button
                   variant="outlined"
                   sx={{
-                    borderColor: "#FFF2E1",
-                    color: "#011627",
+                    borderColor: "#011627",
+                    color: "white",
                     width: "100%",
                     p: 0,
                   }}
@@ -135,8 +135,8 @@ const Home: NextPage = () => {
           </Card>
         </Grid>
         <Grid item xs={4}>
-          <Card raised={true} sx={{ bgcolor: "#FFF2E1", borderRadius: 2 }}>
-            <CardContent sx={{ textAlign: "center", bgcolor: "#FFF2E1" }}>
+          <Card raised={true} sx={{ bgcolor: "#011627", borderRadius: 2 }}>
+            <CardContent sx={{ textAlign: "center", bgcolor: "#011627" }}>
               <a
                 href="https://github.com/strobosco"
                 target="_blank"
@@ -145,8 +145,8 @@ const Home: NextPage = () => {
                 <Button
                   variant="outlined"
                   sx={{
-                    borderColor: "#FFF2E1",
-                    color: "#011627",
+                    borderColor: "#011627",
+                    color: "white",
                     width: "100%",
                     p: 0,
                   }}
@@ -158,8 +158,10 @@ const Home: NextPage = () => {
           </Card>
         </Grid>
         <Grid item xs={4}>
-          <Card raised={true} sx={{ bgcolor: "#FFF2E1", borderRadius: 2 }}>
-            <CardContent sx={{ textAlign: "center", bgcolor: "#FFF2E1" }}>
+          <Card raised={true} sx={{ bgcolor: "#011627", borderRadius: 2 }}>
+            <CardContent
+              sx={{ textAlign: "center", bgcolor: "#011627", color: "white" }}
+            >
               <Typography>Resume</Typography>
             </CardContent>
           </Card>
