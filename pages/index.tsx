@@ -53,7 +53,8 @@ const Home: NextPage = () => {
             width: 4 / 10,
           }}
         >
-          Hi, I'm Niccolo! I'm a Pitt student who's looking to enter the world
+          Hi, I am Niccolo! I am a Pitt student who is looking to enter the
+          world
           <br />
           of software! My passions include Software Development, Cloud
           <br />
