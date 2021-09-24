@@ -9,6 +9,9 @@ import Card from "@mui/material/Card";
 import Grid from "@mui/material/Grid";
 import CardContent from "@mui/material/CardContent";
 import Box from "@mui/system/Box";
+import Button from "@mui/material/Button";
+
+import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
@@ -73,7 +76,19 @@ const Home: NextPage = () => {
         <Grid item xs={8}>
           <Card raised={true} sx={{ bgcolor: "#FFF2E1", borderRadius: 2 }}>
             <CardContent sx={{ textAlign: "center", bgcolor: "#FFF2E1" }}>
-              <Typography>About</Typography>
+              <Link href="/about">
+                <Button
+                  variant="outlined"
+                  sx={{
+                    borderColor: "#FFF2E1",
+                    color: "#011627",
+                    width: "100%",
+                    p: 0,
+                  }}
+                >
+                  About
+                </Button>
+              </Link>
             </CardContent>
           </Card>
         </Grid>
