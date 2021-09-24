@@ -137,7 +137,23 @@ const Home: NextPage = () => {
         <Grid item xs={4}>
           <Card raised={true} sx={{ bgcolor: "#FFF2E1", borderRadius: 2 }}>
             <CardContent sx={{ textAlign: "center", bgcolor: "#FFF2E1" }}>
-              <Typography>Github</Typography>
+              <a
+                href="https://github.com/strobosco"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button
+                  variant="outlined"
+                  sx={{
+                    borderColor: "#FFF2E1",
+                    color: "#011627",
+                    width: "100%",
+                    p: 0,
+                  }}
+                >
+                  GitHub
+                </Button>
+              </a>
             </CardContent>
           </Card>
         </Grid>
