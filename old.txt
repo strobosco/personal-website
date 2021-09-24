@@ -1,0 +1,182 @@
+<Box
+        sx={{
+          backgroundColor: "#011627",
+        }}
+      >
+        <AppBar position="static">
+          <Toolbar
+            variant="dense"
+            sx={{ bgcolor: "#011627", height: 1 }}
+          ></Toolbar>
+        </AppBar>
+        <Toolbar
+          sx={{
+            mt: 5,
+          }}
+        >
+          <Typography
+            variant="body1"
+            component="div"
+            sx={{
+              ml: 10,
+              flexGrow: 1,
+              color: "white",
+              textAlign: "left",
+              fontStyle: "normal",
+              fontSize: 72,
+              fontFamily: "BlinkMacSystemFont",
+            }}
+          >
+            Niccolo Nobili
+          </Typography>
+          <Typography
+            variant="body1"
+            component="div"
+            sx={{
+              color: "white",
+              flexGrow: 1,
+              textAlign: "left",
+              fontStyle: "normal",
+              fontSize: 20,
+              fontFamily: "BlinkMacSystemFont",
+              width: 4 / 10,
+            }}
+          >
+            I am a Pitt student who is looking to enter the world
+            <br />
+            of software! My passions include:
+            <ul>
+              <li>Software Development</li>
+              <li>Cloud Computing</li>
+              <li>Cybersecurity</li>
+              <li>Intelligent Systems</li>
+            </ul>
+          </Typography>
+        </Toolbar>
+        <Grid
+          container
+          spacing={2}
+          sx={{
+            mt: 10,
+            width: 2 / 3,
+            mx: "auto",
+          }}
+        >
+          <Grid item xs={8}>
+            <Card
+              raised={true}
+              sx={{ bgcolor: "#011627", borderRadius: 2, height: 100 }}
+            >
+              <CardContent sx={{ textAlign: "center", bgcolor: "#011627" }}>
+                <Link href="/about">
+                  <Button
+                    variant="outlined"
+                    sx={{
+                      lineHeight: 4,
+                      borderColor: "#011627",
+                      color: "white",
+                      width: "100%",
+                      p: 0,
+                    }}
+                  >
+                    About
+                  </Button>
+                </Link>
+              </CardContent>
+            </Card>
+          </Grid>
+          <Grid item xs={4}>
+            <Card
+              raised={true}
+              sx={{ bgcolor: "#011627", borderRadius: 2, height: 100 }}
+            >
+              <CardContent sx={{ textAlign: "center", bgcolor: "#011627" }}>
+                <Link href="/projects">
+                  <Button
+                    variant="outlined"
+                    sx={{
+                      lineHeight: 4,
+                      borderColor: "#011627",
+                      color: "white",
+                      width: "100%",
+                      p: 0,
+                    }}
+                  >
+                    Projects
+                  </Button>
+                </Link>
+              </CardContent>
+            </Card>
+          </Grid>
+          <Grid item xs={4}>
+            <Card
+              raised={true}
+              sx={{ bgcolor: "#011627", borderRadius: 2, height: 100 }}
+            >
+              <CardContent sx={{ textAlign: "center", bgcolor: "#011627" }}>
+                <a
+                  href="https://www.linkedin.com/in/niccolonobili/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button
+                    variant="outlined"
+                    sx={{
+                      lineHeight: 4,
+                      borderColor: "#011627",
+                      color: "white",
+                      width: "100%",
+                      p: 0,
+                    }}
+                  >
+                    LinkedIn
+                  </Button>
+                </a>
+              </CardContent>
+            </Card>
+          </Grid>
+          <Grid item xs={4}>
+            <Card
+              raised={true}
+              sx={{ bgcolor: "#011627", borderRadius: 2, height: 100 }}
+            >
+              <CardContent sx={{ textAlign: "center", bgcolor: "#011627" }}>
+                <a
+                  href="https://github.com/strobosco"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button
+                    variant="outlined"
+                    sx={{
+                      lineHeight: 4,
+                      borderColor: "#011627",
+                      color: "white",
+                      width: "100%",
+                      p: 0,
+                    }}
+                  >
+                    GitHub
+                  </Button>
+                </a>
+              </CardContent>
+            </Card>
+          </Grid>
+          <Grid item xs={4}>
+            <Card
+              raised={true}
+              sx={{ bgcolor: "#011627", borderRadius: 2, height: 100 }}
+            >
+              <CardContent
+                sx={{
+                  textAlign: "center",
+                  bgcolor: "#011627",
+                  color: "white",
+                }}
+              >
+                <Typography sx={{ lineHeight: 4 }}>RESUME</Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+        </Grid>
+      </Box>
