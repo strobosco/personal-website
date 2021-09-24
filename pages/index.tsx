@@ -67,24 +67,39 @@ const Home: NextPage = () => {
           mx: "auto",
         }}
       >
-        <Grid item xs={6}>
+        <Grid item xs={12}>
           <Card>
-            <CardContent sx={{ textAlign: "center" }}>Hello</CardContent>
+            <CardContent sx={{ textAlign: "center" }}>
+              <Typography>About</Typography>
+            </CardContent>
           </Card>
         </Grid>
         <Grid item xs={6}>
           <Card>
-            <CardContent>Hello</CardContent>
+            <CardContent sx={{ textAlign: "center" }}>
+              <Typography>Projects</Typography>
+            </CardContent>
           </Card>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={6} sx={{ textAlign: "center" }}>
           <Card>
-            <CardContent>Hello</CardContent>
+            <CardContent>
+              <Typography>LinkedIn</Typography>
+            </CardContent>
           </Card>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={6} sx={{ textAlign: "center" }}>
           <Card>
-            <CardContent>Hello</CardContent>
+            <CardContent>
+              <Typography>Github</Typography>
+            </CardContent>
+          </Card>
+        </Grid>
+        <Grid item xs={6} sx={{ textAlign: "center" }}>
+          <Card>
+            <CardContent>
+              <Typography>Resume</Typography>
+            </CardContent>
           </Card>
         </Grid>
       </Grid>
