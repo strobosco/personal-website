@@ -95,14 +95,42 @@ const Home: NextPage = () => {
         <Grid item xs={4}>
           <Card raised={true} sx={{ bgcolor: "#FFF2E1", borderRadius: 2 }}>
             <CardContent sx={{ textAlign: "center", bgcolor: "#FFF2E1" }}>
-              <Typography>Projects</Typography>
+              <Link href="/projects">
+                <Button
+                  variant="outlined"
+                  sx={{
+                    borderColor: "#FFF2E1",
+                    color: "#011627",
+                    width: "100%",
+                    p: 0,
+                  }}
+                >
+                  Projects
+                </Button>
+              </Link>
             </CardContent>
           </Card>
         </Grid>
         <Grid item xs={4}>
           <Card raised={true} sx={{ bgcolor: "#FFF2E1", borderRadius: 2 }}>
             <CardContent sx={{ textAlign: "center", bgcolor: "#FFF2E1" }}>
-              <Typography>LinkedIn</Typography>
+              <a
+                href="https://www.linkedin.com/in/niccolonobili/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button
+                  variant="outlined"
+                  sx={{
+                    borderColor: "#FFF2E1",
+                    color: "#011627",
+                    width: "100%",
+                    p: 0,
+                  }}
+                >
+                  LinkedIn
+                </Button>
+              </a>
             </CardContent>
           </Card>
         </Grid>
