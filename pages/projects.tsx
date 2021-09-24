@@ -61,7 +61,7 @@ const Projects: NextPage = () => {
                 frontend webpages, anything that had to do with the world of web
                 dev. <br />
                 In 2020 however, I shifted my focus to Cloud Computing and
-                Machine Learning. I discovered Coursera and Andrew Ng's Stanford
+                Machine Learning. I discovered Coursera and Andrew Ngs Stanford
                 ML Course.
               </Typography>
             </CardContent>
@@ -139,7 +139,7 @@ const Projects: NextPage = () => {
                 </Button>
               </a>
               <Typography>
-                This boids project was actually based on one of my father's
+                This boids project was actually based on one of my fathers
                 interests. One day he introduced to the concept of flocking and
                 the famous boids which lead me to try and recreate them myself.
                 <br />I managed to create a working model using a simple 2D game
