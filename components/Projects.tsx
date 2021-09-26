@@ -103,7 +103,7 @@ const Projects: NextPage = () => {
                   </ul>
                   <h4>As well as</h4>
                   <ul>
-                    <li>Redis caching for cookies and seesion id's</li>
+                    <li>Redis caching for cookies and seesion ids</li>
                     <li>PostgreSQL for persistant storage</li>
                     <li>Kuberentes & Docker deployment on GCP</li>
                   </ul>
