@@ -4,8 +4,8 @@ import Typography from "@mui/material/Typography";
 import IconButton from "@mui/material/IconButton";
 import Box from "@mui/system/Box";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 import React from "react";
 
@@ -50,7 +50,7 @@ const NavBar: NextPage = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                  <LinkedInIcon sx={{ fontSize: 40 }} />
                 </a>
               </IconButton>
               <IconButton
@@ -62,7 +62,7 @@ const NavBar: NextPage = () => {
                 aria-label="GitHub"
                 sx={{ mr: 10 }}
               >
-                <FontAwesomeIcon icon={faGithub} size="2x" />
+                <GitHubIcon sx={{ fontSize: 40 }} />
               </IconButton>
             </Box>
           </Toolbar>
