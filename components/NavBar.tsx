@@ -41,9 +41,8 @@ const NavBar: NextPage = () => {
             <Box sx={{ position: "absolute", right: 0, mr: 20 }}>
               <IconButton
                 size="small"
-                edge="start"
                 color="inherit"
-                aria-label="menu"
+                aria-label="LinkedIn"
                 sx={{ mr: 10 }}
               >
                 <a
@@ -59,12 +58,11 @@ const NavBar: NextPage = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 size="small"
-                edge="start"
                 color="inherit"
-                aria-label="menu"
+                aria-label="GitHub"
                 sx={{ mr: 10 }}
               >
-                <FontAwesomeIcon icon={faGithub} size="2x"></FontAwesomeIcon>
+                <FontAwesomeIcon icon={faGithub} size="2x" />
               </IconButton>
             </Box>
           </Toolbar>
