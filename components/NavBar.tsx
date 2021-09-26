@@ -1,7 +1,7 @@
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import IconButton from "@mui/material/IconButton";
+import Button from "@mui/material/IconButton";
 import Box from "@mui/system/Box";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -39,7 +39,7 @@ const NavBar: NextPage = () => {
               Niccolo Nobili
             </Typography>
             <Box sx={{ position: "absolute", right: 0, mr: 20 }}>
-              <IconButton
+              <Button
                 href="https://github.com/strobosco"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -50,8 +50,8 @@ const NavBar: NextPage = () => {
                 sx={{ mr: 10 }}
               >
                 <FontAwesomeIcon icon={faGithub} size="1x"></FontAwesomeIcon>
-              </IconButton>
-              <IconButton
+              </Button>
+              <Button
                 href="https://www.linkedin.com/in/niccolonobili/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -62,7 +62,7 @@ const NavBar: NextPage = () => {
                 sx={{ mr: 2 }}
               >
                 <FontAwesomeIcon icon={faLinkedin} size="1x"></FontAwesomeIcon>
-              </IconButton>
+              </Button>
             </Box>
           </Toolbar>
         </AppBar>
