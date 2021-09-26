@@ -75,8 +75,38 @@ const Projects: NextPage = () => {
                     mt: 2,
                   }}
                 >
-                  Strobo was a side-project that initailly started a YouTube
-                  tutorial follow through.
+                  Strobo was a side-project that initially started as a YouTube
+                  tutorial follow through. It started as a Reddit clone using
+                  the latest technology available, both in frontend and backend
+                  environments. After completing the tutorial I decide to
+                  continue developing the idea into something new, of my own
+                  creation. This is where the idea for a "transparent and
+                  responsible" social media was born. After extensive funtion
+                  development I decided to try and deploy the product. This is
+                  where I furthered my knowledge with Kubernetes, Docker, Nginx,
+                  and Google Cloud Platform. The entire tech stack for the
+                  product is: <br />
+                  <h4>Frontend</h4>
+                  <ul>
+                    <li>React frontend using TypeScript</li>
+                    <li>Next.js framework</li>
+                    <li>GraphQL query language for API calls</li>
+                    <li>Apollo client</li>
+                  </ul>
+                  <br />
+                  <h4>Backend</h4>
+                  <ul>
+                    <li>Node.js</li>
+                    <li>Express framework</li>
+                    <li>Apollo Server Express</li>
+                    <li>TypeORM type generation</li>
+                  </ul>
+                  <h4>As well as</h4>
+                  <ul>
+                    <li>Redis caching for cookies and seesion id's</li>
+                    <li>PostgreSQL for persistant storage</li>
+                    <li>Kuberentes & Docker deployment on GCP</li>
+                  </ul>
                 </Typography>
               </CardContent>
             </Card>
@@ -118,7 +148,13 @@ const Projects: NextPage = () => {
                     mt: 2,
                   }}
                 >
-                  Boids was
+                  Boids started out when my father introduced me to the concept
+                  of flocking one afternoon. After that, I decided to try an
+                  implement the algorithm in the Golang language. The project is
+                  still ongoing as I am constantly trying to make improvements.{" "}
+                  <br />
+                  Currently, I am trying to restrain the boids field of
+                  perception to increase realism.
                 </Typography>
               </CardContent>
             </Card>
