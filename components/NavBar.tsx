@@ -25,7 +25,7 @@ const NavBar: NextPage = () => {
         <title>Niccolo Nobili</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Box sx={{ flexGrow: 1, height: 20 }}>
+      <Box sx={{ height: 20 }}>
         <AppBar position="static" sx={{ height: 80, bgcolor: "#212121" }}>
           <Toolbar>
             <Typography
