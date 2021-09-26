@@ -80,12 +80,12 @@ const Projects: NextPage = () => {
                   the latest technology available, both in frontend and backend
                   environments. After completing the tutorial I decide to
                   continue developing the idea into something new, of my own
-                  creation. This is where the idea for a "transparent and
-                  responsible" social media was born. After extensive funtion
-                  development I decided to try and deploy the product. This is
-                  where I furthered my knowledge with Kubernetes, Docker, Nginx,
-                  and Google Cloud Platform. The entire tech stack for the
-                  product is: <br />
+                  creation. This is where the idea for a
+                  {"transparent and responsible"} social media was born. After
+                  extensive function development I decided to try and deploy the
+                  product. This is where I furthered my knowledge with
+                  Kubernetes, Docker, Nginx, and Google Cloud Platform. The
+                  entire tech stack for the product is: <br />
                   <h4>Frontend</h4>
                   <ul>
                     <li>React frontend using TypeScript</li>
