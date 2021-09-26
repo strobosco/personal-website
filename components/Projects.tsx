@@ -46,23 +46,21 @@ const Projects: NextPage = () => {
                   >
                     Strobo
                   </Typography>
-                  <Box sx={{ position: "absolute", right: 0 }}>
-                    <IconButton
-                      href="https://github.com/strobosco/strobo"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      size="large"
-                      edge="start"
-                      color="inherit"
-                      aria-label="menu"
-                      sx={{ mr: 10 }}
-                    >
-                      <FontAwesomeIcon
-                        icon={faGithub}
-                        size="1x"
-                      ></FontAwesomeIcon>
-                    </IconButton>
-                  </Box>
+                  <IconButton
+                    href="https://github.com/strobosco/strobo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    size="large"
+                    edge="start"
+                    color="inherit"
+                    aria-label="menu"
+                    sx={{ position: "absolute", right: 0 }}
+                  >
+                    <FontAwesomeIcon
+                      icon={faGithub}
+                      size="2x"
+                    ></FontAwesomeIcon>
+                  </IconButton>
                 </Toolbar>
                 <Typography
                   variant="body1"
@@ -116,23 +114,21 @@ const Projects: NextPage = () => {
                   <Typography variant="h4" sx={{ fontFamily: "Gill Sans" }}>
                     Boids
                   </Typography>
-                  <Box sx={{ position: "absolute", right: 0 }}>
-                    <IconButton
-                      href="https://github.com/strobosco/boids"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      size="large"
-                      edge="start"
-                      color="inherit"
-                      aria-label="menu"
-                      sx={{ mr: 10 }}
-                    >
-                      <FontAwesomeIcon
-                        icon={faGithub}
-                        size="1x"
-                      ></FontAwesomeIcon>
-                    </IconButton>
-                  </Box>
+                  <IconButton
+                    href="https://github.com/strobosco/boids"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    size="large"
+                    edge="start"
+                    color="inherit"
+                    aria-label="menu"
+                    sx={{ position: "absolute", right: 0 }}
+                  >
+                    <FontAwesomeIcon
+                      icon={faGithub}
+                      size="2x"
+                    ></FontAwesomeIcon>
+                  </IconButton>
                 </Toolbar>
                 <Typography
                   variant="body1"
