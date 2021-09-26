@@ -44,7 +44,8 @@ const NavBar: NextPage = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 size="large"
-                aria-label="menu"
+                color="inherit"
+                aria-label="Github"
                 sx={{ mr: 10 }}
               >
                 <FontAwesomeIcon icon={faGithub} size="1x" />
@@ -54,7 +55,8 @@ const NavBar: NextPage = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 size="large"
-                aria-label="menu"
+                color="inherit"
+                aria-label="LinkedIn"
                 sx={{ mr: 2 }}
               >
                 <FontAwesomeIcon icon={faLinkedin} size="1x" />
