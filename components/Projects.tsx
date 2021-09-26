@@ -10,8 +10,8 @@ import {
   Toolbar,
 } from "@mui/material";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 const Projects: NextPage = () => {
   return (
@@ -56,10 +56,7 @@ const Projects: NextPage = () => {
                     aria-label="menu"
                     sx={{ position: "absolute", right: 0 }}
                   >
-                    <FontAwesomeIcon
-                      icon={faGithub}
-                      size="2x"
-                    ></FontAwesomeIcon>
+                    <GitHubIcon sx={{ fontSize: 40 }} />
                   </IconButton>
                 </Toolbar>
                 <Typography
@@ -124,10 +121,7 @@ const Projects: NextPage = () => {
                     aria-label="menu"
                     sx={{ position: "absolute", right: 0 }}
                   >
-                    <FontAwesomeIcon
-                      icon={faGithub}
-                      size="2x"
-                    ></FontAwesomeIcon>
+                    <GitHubIcon sx={{ fontSize: 40 }} />
                   </IconButton>
                 </Toolbar>
                 <Typography

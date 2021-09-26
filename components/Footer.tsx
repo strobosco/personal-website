@@ -11,8 +11,8 @@ import {
   IconButton,
 } from "@mui/material";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 const Footer: NextPage = () => {
   return (
@@ -57,7 +57,7 @@ const Footer: NextPage = () => {
                     aria-label="menu"
                     sx={{ position: "absolute", right: 0 }}
                   >
-                    <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                    <LinkedInIcon sx={{ fontSize: 40 }} />
                   </IconButton>
                 </Toolbar>
               </CardContent>
@@ -84,10 +84,7 @@ const Footer: NextPage = () => {
                     aria-label="menu"
                     sx={{ position: "absolute", right: 0 }}
                   >
-                    <FontAwesomeIcon
-                      icon={faGithub}
-                      size="2x"
-                    ></FontAwesomeIcon>
+                    <GitHubIcon sx={{ fontSize: 40 }} />
                   </IconButton>
                 </Toolbar>
               </CardContent>
