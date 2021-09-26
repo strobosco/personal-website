@@ -33,7 +33,7 @@ const Footer: NextPage = () => {
         >
           <CardContent sx={{ color: "white" }}>
             <Typography variant="h3" sx={{ fontFamily: "Gill Sans" }}>
-              Let's connect!
+              {"Let's connect!"}
             </Typography>
             <Card
               raised={true}
@@ -128,7 +128,7 @@ const Footer: NextPage = () => {
                           variant="h4"
                           sx={{ fontFamily: "Gill Sans" }}
                         >
-                          My Resumè
+                          Resume
                         </Typography>
                       </IconButton>
                     </a>
