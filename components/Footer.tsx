@@ -49,22 +49,19 @@ const Footer: NextPage = () => {
                   </Typography>
                   <Box sx={{ position: "absolute", right: 0, mr: -5 }}>
                     <IconButton
+                      href="https://linkedin.com/in/niccolonobili"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       size="large"
                       edge="start"
                       color="inherit"
                       aria-label="menu"
                       sx={{ mr: 10 }}
                     >
-                      <a
-                        href="https://linkedin.com/in/niccolonobili"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <FontAwesomeIcon
-                          icon={faLinkedin}
-                          size="2x"
-                        ></FontAwesomeIcon>
-                      </a>
+                      <FontAwesomeIcon
+                        icon={faLinkedin}
+                        size="2x"
+                      ></FontAwesomeIcon>
                     </IconButton>
                   </Box>
                 </Toolbar>
@@ -84,22 +81,19 @@ const Footer: NextPage = () => {
                   </Typography>
                   <Box sx={{ position: "absolute", right: 0, mr: -5 }}>
                     <IconButton
+                      href="https://github.com/strobosco"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       size="large"
                       edge="start"
                       color="inherit"
                       aria-label="menu"
                       sx={{ mr: 10 }}
                     >
-                      <a
-                        href="https://github.com/strobosco"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <FontAwesomeIcon
-                          icon={faGithub}
-                          size="2x"
-                        ></FontAwesomeIcon>
-                      </a>
+                      <FontAwesomeIcon
+                        icon={faGithub}
+                        size="2x"
+                      ></FontAwesomeIcon>
                     </IconButton>
                   </Box>
                 </Toolbar>
@@ -112,26 +106,20 @@ const Footer: NextPage = () => {
               <CardContent sx={{ color: "white" }}>
                 <Toolbar>
                   <Box sx={{ position: "absolute", ml: 0 }}>
-                    <a
+                    <IconButton
                       href="/resume.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
+                      size="large"
+                      edge="start"
+                      color="inherit"
+                      aria-label="menu"
+                      sx={{ mr: 10 }}
                     >
-                      <IconButton
-                        size="large"
-                        edge="start"
-                        color="inherit"
-                        aria-label="menu"
-                        sx={{ mr: 10 }}
-                      >
-                        <Typography
-                          variant="h4"
-                          sx={{ fontFamily: "Gill Sans" }}
-                        >
-                          Resume
-                        </Typography>
-                      </IconButton>
-                    </a>
+                      <Typography variant="h4" sx={{ fontFamily: "Gill Sans" }}>
+                        Resume
+                      </Typography>
+                    </IconButton>
                   </Box>
                 </Toolbar>
               </CardContent>

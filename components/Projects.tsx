@@ -48,22 +48,19 @@ const Projects: NextPage = () => {
                   </Typography>
                   <Box sx={{ position: "absolute", right: 0, mr: -5 }}>
                     <IconButton
+                      href="https://github.com/strobosco/strobo"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       size="large"
                       edge="start"
                       color="inherit"
                       aria-label="menu"
                       sx={{ mr: 10 }}
                     >
-                      <a
-                        href="https://github.com/strobosco/strobo"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <FontAwesomeIcon
-                          icon={faGithub}
-                          size="1x"
-                        ></FontAwesomeIcon>
-                      </a>
+                      <FontAwesomeIcon
+                        icon={faGithub}
+                        size="1x"
+                      ></FontAwesomeIcon>
                     </IconButton>
                   </Box>
                 </Toolbar>
@@ -121,22 +118,19 @@ const Projects: NextPage = () => {
                   </Typography>
                   <Box sx={{ position: "absolute", right: 0, mr: -5 }}>
                     <IconButton
+                      href="https://github.com/strobosco/boids"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       size="large"
                       edge="start"
                       color="inherit"
                       aria-label="menu"
                       sx={{ mr: 10 }}
                     >
-                      <a
-                        href="https://github.com/strobosco/boids"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <FontAwesomeIcon
-                          icon={faGithub}
-                          size="1x"
-                        ></FontAwesomeIcon>
-                      </a>
+                      <FontAwesomeIcon
+                        icon={faGithub}
+                        size="1x"
+                      ></FontAwesomeIcon>
                     </IconButton>
                   </Box>
                 </Toolbar>

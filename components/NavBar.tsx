@@ -40,37 +40,28 @@ const NavBar: NextPage = () => {
             </Typography>
             <Box sx={{ position: "absolute", right: 0, mr: 20 }}>
               <IconButton
+                href="https://github.com/strobosco"
+                target="_blank"
+                rel="noopener noreferrer"
                 size="large"
                 edge="start"
                 color="inherit"
                 aria-label="menu"
                 sx={{ mr: 10 }}
               >
-                <a
-                  href="https://github.com/strobosco"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FontAwesomeIcon icon={faGithub} size="1x"></FontAwesomeIcon>
-                </a>
+                <FontAwesomeIcon icon={faGithub} size="1x"></FontAwesomeIcon>
               </IconButton>
               <IconButton
+                href="https://www.linkedin.com/in/niccolonobili/"
+                target="_blank"
+                rel="noopener noreferrer"
                 size="large"
                 edge="start"
                 color="inherit"
                 aria-label="menu"
                 sx={{ mr: 2 }}
               >
-                <a
-                  href="https://www.linkedin.com/in/niccolonobili/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FontAwesomeIcon
-                    icon={faLinkedin}
-                    size="1x"
-                  ></FontAwesomeIcon>
-                </a>
+                <FontAwesomeIcon icon={faLinkedin} size="1x"></FontAwesomeIcon>
               </IconButton>
             </Box>
           </Toolbar>
