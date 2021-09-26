@@ -47,23 +47,18 @@ const Footer: NextPage = () => {
                   >
                     LinkedIn
                   </Typography>
-                  <Box sx={{ position: "absolute", right: 0, mr: -5 }}>
-                    <IconButton
-                      href="https://linkedin.com/in/niccolonobili"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      size="large"
-                      edge="start"
-                      color="inherit"
-                      aria-label="menu"
-                      sx={{ mr: 10 }}
-                    >
-                      <FontAwesomeIcon
-                        icon={faLinkedin}
-                        size="2x"
-                      ></FontAwesomeIcon>
-                    </IconButton>
-                  </Box>
+                  <IconButton
+                    href="https://linkedin.com/in/niccolonobili"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    size="large"
+                    edge="start"
+                    color="inherit"
+                    aria-label="menu"
+                    sx={{ position: "absolute", right: 0 }}
+                  >
+                    <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                  </IconButton>
                 </Toolbar>
               </CardContent>
             </Card>
@@ -79,23 +74,21 @@ const Footer: NextPage = () => {
                   >
                     GitHub
                   </Typography>
-                  <Box sx={{ position: "absolute", right: 0, mr: -5 }}>
-                    <IconButton
-                      href="https://github.com/strobosco"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      size="large"
-                      edge="start"
-                      color="inherit"
-                      aria-label="menu"
-                      sx={{ mr: 10 }}
-                    >
-                      <FontAwesomeIcon
-                        icon={faGithub}
-                        size="2x"
-                      ></FontAwesomeIcon>
-                    </IconButton>
-                  </Box>
+                  <IconButton
+                    href="https://github.com/strobosco"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    size="large"
+                    edge="start"
+                    color="inherit"
+                    aria-label="menu"
+                    sx={{ position: "absolute", right: 0 }}
+                  >
+                    <FontAwesomeIcon
+                      icon={faGithub}
+                      size="2x"
+                    ></FontAwesomeIcon>
+                  </IconButton>
                 </Toolbar>
               </CardContent>
             </Card>
