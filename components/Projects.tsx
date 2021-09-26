@@ -47,24 +47,24 @@ const Projects: NextPage = () => {
                     Strobo
                   </Typography>
                   <Box sx={{ position: "absolute", right: 0, mr: -5 }}>
-                    <a
-                      href="https://github.com/strobosco/strobo"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                    <IconButton
+                      size="large"
+                      edge="start"
+                      color="inherit"
+                      aria-label="menu"
+                      sx={{ mr: 10 }}
                     >
-                      <IconButton
-                        size="large"
-                        edge="start"
-                        color="inherit"
-                        aria-label="menu"
-                        sx={{ mr: 10 }}
+                      <a
+                        href="https://github.com/strobosco/strobo"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faGithub}
                           size="1x"
                         ></FontAwesomeIcon>
-                      </IconButton>
-                    </a>
+                      </a>
+                    </IconButton>
                   </Box>
                 </Toolbar>
                 <Typography
@@ -120,24 +120,24 @@ const Projects: NextPage = () => {
                     Boids
                   </Typography>
                   <Box sx={{ position: "absolute", right: 0, mr: -5 }}>
-                    <a
-                      href="https://github.com/strobosco/boids"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                    <IconButton
+                      size="large"
+                      edge="start"
+                      color="inherit"
+                      aria-label="menu"
+                      sx={{ mr: 10 }}
                     >
-                      <IconButton
-                        size="large"
-                        edge="start"
-                        color="inherit"
-                        aria-label="menu"
-                        sx={{ mr: 10 }}
+                      <a
+                        href="https://github.com/strobosco/boids"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faGithub}
                           size="1x"
                         ></FontAwesomeIcon>
-                      </IconButton>
-                    </a>
+                      </a>
+                    </IconButton>
                   </Box>
                 </Toolbar>
                 <Typography

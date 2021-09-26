@@ -39,39 +39,39 @@ const NavBar: NextPage = () => {
               Niccolo Nobili
             </Typography>
             <Box sx={{ position: "absolute", right: 0, mr: 20 }}>
-              <a
-                href="https://github.com/strobosco"
-                target="_blank"
-                rel="noopener noreferrer"
+              <IconButton
+                size="large"
+                edge="start"
+                color="inherit"
+                aria-label="menu"
+                sx={{ mr: 10 }}
               >
-                <IconButton
-                  size="large"
-                  edge="start"
-                  color="inherit"
-                  aria-label="menu"
-                  sx={{ mr: 10 }}
+                <a
+                  href="https://github.com/strobosco"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <FontAwesomeIcon icon={faGithub} size="1x"></FontAwesomeIcon>
-                </IconButton>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/niccolonobili/"
-                target="_blank"
-                rel="noopener noreferrer"
+                </a>
+              </IconButton>
+              <IconButton
+                size="large"
+                edge="start"
+                color="inherit"
+                aria-label="menu"
+                sx={{ mr: 2 }}
               >
-                <IconButton
-                  size="large"
-                  edge="start"
-                  color="inherit"
-                  aria-label="menu"
-                  sx={{ mr: 2 }}
+                <a
+                  href="https://www.linkedin.com/in/niccolonobili/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <FontAwesomeIcon
                     icon={faLinkedin}
                     size="1x"
                   ></FontAwesomeIcon>
-                </IconButton>
-              </a>
+                </a>
+              </IconButton>
             </Box>
           </Toolbar>
         </AppBar>
