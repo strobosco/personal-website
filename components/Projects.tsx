@@ -46,7 +46,7 @@ const Projects: NextPage = () => {
                   >
                     Strobo
                   </Typography>
-                  <Box sx={{ position: "absolute", right: 0, mr: -5 }}>
+                  <Box sx={{ position: "absolute", right: 0 }}>
                     <IconButton
                       href="https://github.com/strobosco/strobo"
                       target="_blank"
@@ -116,7 +116,7 @@ const Projects: NextPage = () => {
                   <Typography variant="h4" sx={{ fontFamily: "Gill Sans" }}>
                     Boids
                   </Typography>
-                  <Box sx={{ position: "absolute", right: 0, mr: -5 }}>
+                  <Box sx={{ position: "absolute", right: 0 }}>
                     <IconButton
                       href="https://github.com/strobosco/boids"
                       target="_blank"
