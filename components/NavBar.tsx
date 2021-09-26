@@ -20,7 +20,7 @@ const NavBar: NextPage = () => {
         <meta charSet="utf-8" />
         <meta
           name="description"
-          content="Portfolio for Alexander Grattan, software developer studying Digital Narrative and Interactive Design at the University of Pittsburgh. Skilled with React, Gatsby, Next.js, JavaScript, TypeScript, Java, Python, TailwindCSS, Sass, Node.js, Django, and GSAP."
+          content="Portfolio for Niccolo Nobili, software developer studying Computer Science at the University of Pittsburgh. Skilled with React, Next.js, JavaScript, TypeScript, Java, Python, Node.js, Django."
         ></meta>
         <title>Niccolo Nobili</title>
         <link rel="icon" href="/favicon.ico" />
