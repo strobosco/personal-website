@@ -40,22 +40,28 @@ const NavBar: NextPage = () => {
             </Typography>
             <Box sx={{ position: "absolute", right: 0, mr: 20 }}>
               <IconButton
-                href="https://www.linkedin.com/in/niccolonobili/"
+                href="https://linkedin.com/in/niccolonobili"
                 target="_blank"
                 rel="noopener noreferrer"
+                size="small"
+                edge="start"
                 color="inherit"
+                aria-label="menu"
                 sx={{ mr: 10 }}
               >
-                <FontAwesomeIcon icon={faLinkedin} size="1x"></FontAwesomeIcon>
+                <FontAwesomeIcon icon={faLinkedin} size="2x"></FontAwesomeIcon>
               </IconButton>
               <IconButton
                 href="https://github.com/strobosco"
                 target="_blank"
                 rel="noopener noreferrer"
+                size="small"
+                edge="start"
                 color="inherit"
+                aria-label="menu"
                 sx={{ mr: 10 }}
               >
-                <FontAwesomeIcon icon={faGithub} size="1x"></FontAwesomeIcon>
+                <FontAwesomeIcon icon={faGithub} size="2x"></FontAwesomeIcon>
               </IconButton>
             </Box>
           </Toolbar>
