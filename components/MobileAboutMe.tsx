@@ -18,7 +18,7 @@ const AboutMe: NextPage = () => {
       >
         <Card
           raised={true}
-          sx={{ bgcolor: "#1b1b1b", width: "80%", mx: "auto", borderRadius: 5 }}
+          sx={{ bgcolor: "#1b1b1b", width: "90%", mx: "auto", borderRadius: 5 }}
         >
           <CardContent sx={{ color: "white" }}>
             <Typography variant="h3" sx={{ fontFamily: "Gill Sans" }}>
