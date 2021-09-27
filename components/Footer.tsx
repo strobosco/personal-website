@@ -19,9 +19,10 @@ const Footer: NextPage = () => {
     <footer>
       <Box
         sx={{
-          mt: 10,
+          mt: 8,
+          mb: 6,
+          mx: "auto",
           lineHeight: 8,
-          ml: 23,
           color: "white",
           fontSize: 38,
           fontFamily: "Gill Sans",
@@ -29,7 +30,7 @@ const Footer: NextPage = () => {
       >
         <Card
           raised={true}
-          sx={{ bgcolor: "#1b1b1b", width: "80%", borderRadius: 5 }}
+          sx={{ bgcolor: "#1b1b1b", width: "80%", mx: "auto", borderRadius: 5 }}
         >
           <CardContent sx={{ color: "white" }}>
             <Typography variant="h3" sx={{ fontFamily: "Gill Sans" }}>
