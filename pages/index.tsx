@@ -8,11 +8,7 @@ import FullscreenView from "../components/FullscreenView";
 import MobileView from "../components/MobileView";
 
 const Home: NextPage = () => {
-  return (
-    <>
-      {useScreenType() === "fullscreen" ? <FullscreenView /> : <MobileView />}
-    </>
-  );
+  return <>{useScreenType() ? <FullscreenView /> : <MobileView />}</>;
 };
 
 export default Home;
