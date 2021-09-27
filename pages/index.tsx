@@ -1,18 +1,16 @@
 import React from "react";
 
 import type { NextPage } from "next";
-import NavBar from "../components/NavBar";
-import AboutMe from "../components/AboutMe";
-import Projects from "../components/Projects";
-import Footer from "../components/Footer";
+
+import { useScreenType } from "../utils/screenType";
+
+import FullscreenView from "../components/FullscreenView";
+import MobileView from "../components/MobileView";
 
 const Home: NextPage = () => {
   return (
     <>
-      <NavBar />
-      <AboutMe />
-      <Projects />
-      <Footer />
+      {useScreenType() === "fullscreen" ? <FullscreenView /> : <MobileView />}
     </>
   );
 };
