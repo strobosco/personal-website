@@ -25,45 +25,48 @@ const NavBar: NextPage = () => {
         <title>Niccolo Nobili</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Box sx={{ height: 20 }}>
-        <AppBar position="static" sx={{ height: 80, bgcolor: "#212121" }}>
+      <Box sx={{}}>
+        <AppBar position="static" sx={{ height: 40, bgcolor: "#212121" }}>
           <Toolbar>
-            <Typography
-              sx={{
-                lineHeight: 8,
-                ml: 20,
-                fontSize: 38,
-                fontFamily: "Gill Sans",
-              }}
-            >
-              Niccolo Nobili
-            </Typography>
-            <Box sx={{ position: "absolute", right: 0, mr: 20 }}>
-              <IconButton
-                size="small"
-                color="inherit"
-                aria-label="LinkedIn"
-                sx={{ mr: 10 }}
+            <Box sx={{ mt: 5, mx: "auto", width: "80%" }}>
+              <Typography
+                sx={{
+                  fontSize: 46,
+                  fontFamily: "Gill Sans",
+                }}
               >
-                <a
+                Niccolo Nobili
+              </Typography>
+              <Box
+                sx={{
+                  position: "absolute",
+                  right: 0,
+                  mr: 20,
+                }}
+              >
+                <IconButton
                   href="https://linkedin.com/in/niccolonobili"
                   target="_blank"
                   rel="noopener noreferrer"
+                  size="large"
+                  color="inherit"
+                  aria-label="LinkedIn"
+                  sx={{}}
                 >
                   <LinkedInIcon sx={{ fontSize: 40 }} />
-                </a>
-              </IconButton>
-              <IconButton
-                href="https://github.com/strobosco"
-                target="_blank"
-                rel="noopener noreferrer"
-                size="small"
-                color="inherit"
-                aria-label="GitHub"
-                sx={{ mr: 10 }}
-              >
-                <GitHubIcon sx={{ fontSize: 40 }} />
-              </IconButton>
+                </IconButton>
+                <IconButton
+                  href="https://github.com/strobosco"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  size="large"
+                  color="inherit"
+                  aria-label="GitHub"
+                  sx={{}}
+                >
+                  <GitHubIcon sx={{ fontSize: 40 }} />
+                </IconButton>
+              </Box>
             </Box>
           </Toolbar>
         </AppBar>
