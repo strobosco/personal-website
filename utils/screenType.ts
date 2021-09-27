@@ -5,9 +5,8 @@ export const useScreenType = () => {
   const isMobileScreen = useMediaQuery({ minWidth: 800 });
 
   if (isFullscreen) {
-    return "fullscreen";
+    return true;
   }
-  if (isMobileScreen) {
-    return "mobile-screen";
-  }
+
+  return false;
 };
