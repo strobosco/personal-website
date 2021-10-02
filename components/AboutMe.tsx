@@ -6,28 +6,13 @@ import { Typography, Box, Card, CardContent } from "@mui/material";
 const AboutMe: NextPage = () => {
   return (
     <>
-      <Box
-        sx={{
-          mt: 10,
-          lineHeight: 8,
-          ml: 23,
-          color: "white",
-          fontSize: 38,
-          fontFamily: "Gill Sans",
-        }}
-      >
-        <Card
-          raised={true}
-          sx={{ bgcolor: "#1b1b1b", width: "80%", borderRadius: 5 }}
-        >
-          <CardContent sx={{ color: "white" }}>
-            <Typography variant="h3" sx={{ fontFamily: "Gill Sans" }}>
+      <Box className="mt-10 ml-23">
+        <Card raised={true} className="bg-card w-11/12 mx-auto rounded">
+          <CardContent className="text-white">
+            <Typography variant="h3" className="font-body text-heading">
               About Me
             </Typography>
-            <Typography
-              variant="body1"
-              sx={{ mt: 2, fontFamily: "Gill Sans", fontSize: 20 }}
-            >
+            <Typography variant="body1" className="mt-2 text-p font-body">
               I am a Pitt student who is looking to enter the world of software!
               My passions include:
               <ul>
