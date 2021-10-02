@@ -24,7 +24,11 @@ const Footer: NextPage = () => {
         >
           <CardContent className="text-white font-body">
             <Typography variant="h3">{"Let's connect!"}</Typography>
-            <a href="https://linkedin.com/in/niccolonobili">
+            <a
+              href="https://linkedin.com/in/niccolonobili"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Card
                 raised={true}
                 className="w-4/5 mt-5 rounded bg-primary text-white"
@@ -50,7 +54,11 @@ const Footer: NextPage = () => {
                 </CardContent>
               </Card>
             </a>
-            <a href="https://github.com/strobosco">
+            <a
+              href="https://github.com/strobosco"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Card
                 raised={true}
                 className="w-4/5 mt-5 rounded bg-primary text-white"
@@ -62,8 +70,6 @@ const Footer: NextPage = () => {
                     </Typography>
                     <IconButton
                       href="https://github.com/strobosco"
-                      target="_blank"
-                      rel="noopener noreferrer"
                       size="large"
                       edge="start"
                       color="inherit"
@@ -76,28 +82,18 @@ const Footer: NextPage = () => {
                 </CardContent>
               </Card>
             </a>
-
-            <Card
-              raised={true}
-              className="w-4/5 mt-5 rounded bg-primary text-white"
-            >
-              <CardContent color="inherit">
-                <Toolbar>
-                  <IconButton
-                    href="/resume.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    size="large"
-                    edge="start"
-                    color="inherit"
-                    aria-label="menu"
-                    className="absolute left-0"
-                  >
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <Card
+                raised={true}
+                className="w-4/5 mt-5 rounded bg-primary text-white"
+              >
+                <CardContent color="inherit">
+                  <Toolbar>
                     <Typography variant="h4">Resume</Typography>
-                  </IconButton>
-                </Toolbar>
-              </CardContent>
-            </Card>
+                  </Toolbar>
+                </CardContent>
+              </Card>
+            </a>
           </CardContent>
         </Card>
       </Box>
