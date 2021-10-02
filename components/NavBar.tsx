@@ -17,7 +17,7 @@ const NavBar: NextPage = () => {
       <Box className="bg-primary">
         <AppBar className="static bg-primary">
           <Toolbar>
-            <Box className="flex flex-row m-auto mt-6 w-4/5">
+            <Box className="flex flex-row m-auto w-11/12">
               <Typography className="text-heading font-body">
                 Niccolo Nobili
               </Typography>
