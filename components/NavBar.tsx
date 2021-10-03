@@ -10,40 +10,18 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import React from "react";
 
 import type { NextPage } from "next";
-import Head from "next/head";
 
 const NavBar: NextPage = () => {
   return (
     <>
-      <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta charSet="utf-8" />
-        <meta
-          name="description"
-          content="Portfolio for Niccolo Nobili, software developer studying Computer Science at the University of Pittsburgh. Skilled with React, Next.js, JavaScript, TypeScript, Java, Python, Node.js, Django."
-        ></meta>
-        <title>Niccolo Nobili</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <Box sx={{}}>
-        <AppBar position="static" sx={{ height: 40, bgcolor: "#212121" }}>
+      <Box className="bg-primary">
+        <AppBar className="static bg-primary">
           <Toolbar>
-            <Box sx={{ mt: 5, mx: "auto", width: "80%" }}>
-              <Typography
-                sx={{
-                  fontSize: 46,
-                  fontFamily: "Gill Sans",
-                }}
-              >
+            <Box className="flex flex-col sm:flex-row m-auto w-11/12">
+              <Typography className="text-heading font-body">
                 Niccolo Nobili
               </Typography>
-              <Box
-                sx={{
-                  position: "absolute",
-                  right: 0,
-                  mr: 20,
-                }}
-              >
+              <Box className=" mx-auto sm:mr-0 sm:ml-auto">
                 <IconButton
                   href="https://linkedin.com/in/niccolonobili"
                   target="_blank"
@@ -51,9 +29,8 @@ const NavBar: NextPage = () => {
                   size="large"
                   color="inherit"
                   aria-label="LinkedIn"
-                  sx={{}}
                 >
-                  <LinkedInIcon sx={{ fontSize: 40 }} />
+                  <LinkedInIcon className="text-icon" />
                 </IconButton>
                 <IconButton
                   href="https://github.com/strobosco"
@@ -62,9 +39,8 @@ const NavBar: NextPage = () => {
                   size="large"
                   color="inherit"
                   aria-label="GitHub"
-                  sx={{}}
                 >
-                  <GitHubIcon sx={{ fontSize: 40 }} />
+                  <GitHubIcon className="text-icon" />
                 </IconButton>
               </Box>
             </Box>

@@ -17,104 +17,82 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 const Footer: NextPage = () => {
   return (
     <footer>
-      <Box
-        sx={{
-          mt: 8,
-          mb: 6,
-          mx: "auto",
-          lineHeight: 8,
-          color: "white",
-          fontSize: 38,
-          fontFamily: "Gill Sans",
-        }}
-      >
-        <Card
-          raised={true}
-          sx={{ bgcolor: "#1b1b1b", width: "80%", mx: "auto", borderRadius: 5 }}
-        >
-          <CardContent sx={{ color: "white" }}>
-            <Typography variant="h3" sx={{ fontFamily: "Gill Sans" }}>
-              {"Let's connect!"}
+      <Box className="mt-8 mb-6 mx-auto text-white font-body text-footer">
+        <Card raised={true} className="bg-card w-11/12 mx-auto rounded">
+          <CardContent className="text-white font-body">
+            <Typography variant="h3" className="text-center">
+              {"Connect with me!"}
             </Typography>
-            <Card
-              raised={true}
-              sx={{ bgcolor: "#212121", width: "80%", mt: 5, borderRadius: 5 }}
+            <a
+              href="https://linkedin.com/in/niccolonobili"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <CardContent sx={{ color: "white" }}>
-                <Toolbar>
-                  <Typography
-                    variant="h4"
-                    sx={{ fontFamily: "Gill Sans", ml: 0 }}
-                  >
-                    LinkedIn
-                  </Typography>
-                  <IconButton
-                    href="https://linkedin.com/in/niccolonobili"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    size="large"
-                    edge="start"
-                    color="inherit"
-                    aria-label="menu"
-                    sx={{ position: "absolute", right: 0 }}
-                  >
-                    <LinkedInIcon sx={{ fontSize: 40 }} />
-                  </IconButton>
-                </Toolbar>
-              </CardContent>
-            </Card>
-            <Card
-              raised={true}
-              sx={{ bgcolor: "#212121", width: "80%", mt: 5, borderRadius: 5 }}
-            >
-              <CardContent sx={{ color: "white" }}>
-                <Toolbar>
-                  <Typography
-                    variant="h4"
-                    sx={{ fontFamily: "Gill Sans", ml: 0 }}
-                  >
-                    GitHub
-                  </Typography>
-                  <IconButton
-                    href="https://github.com/strobosco"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    size="large"
-                    edge="start"
-                    color="inherit"
-                    aria-label="menu"
-                    sx={{ position: "absolute", right: 0 }}
-                  >
-                    <GitHubIcon sx={{ fontSize: 40 }} />
-                  </IconButton>
-                </Toolbar>
-              </CardContent>
-            </Card>
-            <Card
-              raised={true}
-              sx={{ bgcolor: "#212121", width: "80%", mt: 5, borderRadius: 5 }}
-            >
-              <CardContent sx={{ color: "white" }}>
-                <Toolbar>
-                  <Box sx={{ position: "absolute", ml: 0 }}>
+              <Card
+                raised={true}
+                className="w-11/12 mt-5 mx-auto rounded bg-primary text-white"
+              >
+                <CardContent color="inherit">
+                  <Toolbar>
+                    <Typography variant="h4" className="ml-0">
+                      LinkedIn
+                    </Typography>
                     <IconButton
-                      href="/resume.pdf"
+                      href="https://linkedin.com/in/niccolonobili"
                       target="_blank"
                       rel="noopener noreferrer"
                       size="large"
                       edge="start"
                       color="inherit"
                       aria-label="menu"
-                      sx={{ mr: 10 }}
+                      className="absolute right-0"
                     >
-                      <Typography variant="h4" sx={{ fontFamily: "Gill Sans" }}>
-                        Resume
-                      </Typography>
+                      <LinkedInIcon className="text-footerIcon" />
                     </IconButton>
-                  </Box>
-                </Toolbar>
-              </CardContent>
-            </Card>
+                  </Toolbar>
+                </CardContent>
+              </Card>
+            </a>
+            <a
+              href="https://github.com/strobosco"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Card
+                raised={true}
+                className="w-11/12 mt-5 mx-auto rounded bg-primary text-white"
+              >
+                <CardContent color="inherit">
+                  <Toolbar>
+                    <Typography variant="h4" className="ml-0">
+                      GitHub
+                    </Typography>
+                    <IconButton
+                      href="https://github.com/strobosco"
+                      size="large"
+                      edge="start"
+                      color="inherit"
+                      aria-label="menu"
+                      className="absolute right-0"
+                    >
+                      <GitHubIcon className="text-footerIcon" />
+                    </IconButton>
+                  </Toolbar>
+                </CardContent>
+              </Card>
+            </a>
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <Card
+                raised={true}
+                className="w-11/12 mt-5 mx-auto rounded bg-primary text-white"
+              >
+                <CardContent color="inherit">
+                  <Toolbar>
+                    <Typography variant="h4">Resume</Typography>
+                  </Toolbar>
+                </CardContent>
+              </Card>
+            </a>
           </CardContent>
         </Card>
       </Box>

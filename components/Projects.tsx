@@ -10,40 +10,22 @@ import {
   Toolbar,
 } from "@mui/material";
 
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
 const Projects: NextPage = () => {
   return (
     <>
-      <Box
-        sx={{
-          mt: 10,
-          lineHeight: 8,
-          ml: 23,
-          color: "white",
-          fontSize: 38,
-          fontFamily: "Gill Sans",
-        }}
-      >
+      <Box className="mt-10 ml-23 text-heading font-body">
         <Card
           raised={true}
-          sx={{ bgcolor: "#1b1b1b", width: "80%", borderRadius: 5 }}
+          className="bg-card w-11/12 mx-auto rounded text-white"
         >
-          <CardContent sx={{ color: "white" }}>
-            <Typography variant="h3" sx={{ fontFamily: "Gill Sans" }}>
-              Projects
-            </Typography>
-            <Card
-              raised={true}
-              sx={{ bgcolor: "#212121", width: "80%", mt: 5, borderRadius: 5 }}
-            >
-              <CardContent sx={{ color: "white" }}>
-                <Toolbar>
-                  <Typography
-                    variant="h4"
-                    sx={{ fontFamily: "Gill Sans", ml: 0 }}
-                  >
+          <CardContent className="text-white font-body">
+            <Typography variant="h3">Projects</Typography>
+            <Card raised={true} className="bg-primary w-9/10 mt-5 rounded">
+              <CardContent className="font-body text-white">
+                <Toolbar className="pl-0">
+                  <Typography variant="h4" className="p-0 ml-0">
                     Strobo
                   </Typography>
                   <IconButton
@@ -52,33 +34,29 @@ const Projects: NextPage = () => {
                     rel="noopener noreferrer"
                     size="large"
                     edge="start"
-                    color="inherit"
                     aria-label="menu"
-                    sx={{ position: "absolute", right: 0 }}
+                    className="absolute right-0"
                   >
-                    <GitHubIcon sx={{ fontSize: 40 }} />
+                    <GitHubIcon className="text-icon text-white" />
                   </IconButton>
                 </Toolbar>
-                <Typography
-                  variant="body1"
-                  sx={{
-                    fontFamily: "Gill Sans",
-                    fontSize: 20,
-                    mt: 2,
-                  }}
-                >
+                <Typography variant="body1" className="text-p font-body mt-2">
                   Strobo was a side-project that initially started as a YouTube
                   tutorial follow through. It started as a Reddit clone using
                   the latest technology available, both in frontend and backend
                   environments. After completing the tutorial I decide to
                   continue developing the idea into something new, of my own
                   creation. This is where the idea for a
-                  {"transparent and responsible"} social media was born. After
+                  {" transparent and responsible"} social media was born. After
                   extensive function development I decided to try and deploy the
                   product. This is where I furthered my knowledge with
                   Kubernetes, Docker, Nginx, and Google Cloud Platform. The
-                  entire tech stack for the product is: <br />
-                  <h4>Frontend</h4>
+                  entire tech stack for the product is:
+                  <br />
+                  <br />
+                  <h4>
+                    <u>Frontend:</u>
+                  </h4>
                   <ul>
                     <li>React frontend using TypeScript</li>
                     <li>Next.js framework</li>
@@ -86,7 +64,9 @@ const Projects: NextPage = () => {
                     <li>Apollo client</li>
                   </ul>
                   <br />
-                  <h4>Backend</h4>
+                  <h4>
+                    <u>Backend:</u>
+                  </h4>
                   <ul>
                     <li>Node.js</li>
                     <li>Express framework</li>
@@ -102,13 +82,10 @@ const Projects: NextPage = () => {
                 </Typography>
               </CardContent>
             </Card>
-            <Card
-              raised={true}
-              sx={{ bgcolor: "#212121", width: "80%", mt: 5, borderRadius: 5 }}
-            >
-              <CardContent sx={{ color: "white" }}>
-                <Toolbar>
-                  <Typography variant="h4" sx={{ fontFamily: "Gill Sans" }}>
+            <Card raised={true} className="bg-primary w-9/10 mt-5 rounded">
+              <CardContent className="text-white font-body">
+                <Toolbar className="pl-0">
+                  <Typography variant="h4" className="p-0 ml-0">
                     Boids
                   </Typography>
                   <IconButton
@@ -117,21 +94,13 @@ const Projects: NextPage = () => {
                     rel="noopener noreferrer"
                     size="large"
                     edge="start"
-                    color="inherit"
                     aria-label="menu"
-                    sx={{ position: "absolute", right: 0 }}
+                    className="absolute right-0"
                   >
-                    <GitHubIcon sx={{ fontSize: 40 }} />
+                    <GitHubIcon className="text-icon text-white" />
                   </IconButton>
                 </Toolbar>
-                <Typography
-                  variant="body1"
-                  sx={{
-                    fontFamily: "Gill Sans",
-                    fontSize: 20,
-                    mt: 2,
-                  }}
-                >
+                <Typography variant="body1" className="text-p font-body mt-2">
                   Boids started out when my father introduced me to the concept
                   of flocking one afternoon. After that, I decided to try an
                   implement the algorithm in the Golang language. The project is
