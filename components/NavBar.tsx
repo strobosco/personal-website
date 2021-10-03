@@ -17,11 +17,11 @@ const NavBar: NextPage = () => {
       <Box className="bg-primary">
         <AppBar className="static bg-primary">
           <Toolbar>
-            <Box className="flex flex-row m-auto w-11/12">
+            <Box className="flex flex-col sm:flex-row m-auto w-11/12">
               <Typography className="text-heading font-body">
                 Niccolo Nobili
               </Typography>
-              <Box className="absolute right-0 mr-20">
+              <Box className=" mx-auto sm:mr-0 sm:ml-auto">
                 <IconButton
                   href="https://linkedin.com/in/niccolonobili"
                   target="_blank"
@@ -39,7 +39,6 @@ const NavBar: NextPage = () => {
                   size="large"
                   color="inherit"
                   aria-label="GitHub"
-                  sx={{}}
                 >
                   <GitHubIcon className="text-icon" />
                 </IconButton>
