@@ -18,12 +18,11 @@ const Footer: NextPage = () => {
   return (
     <footer>
       <Box className="mt-8 mb-6 mx-auto text-white font-body text-footer">
-        <Card
-          raised={true}
-          sx={{ bgcolor: "#1b1b1b", width: "80%", mx: "auto", borderRadius: 5 }}
-        >
+        <Card raised={true} className="bg-card w-11/12 mx-auto rounded">
           <CardContent className="text-white font-body">
-            <Typography variant="h3">{"Let's connect!"}</Typography>
+            <Typography variant="h3" className="text-center">
+              {"Connect with me!"}
+            </Typography>
             <a
               href="https://linkedin.com/in/niccolonobili"
               target="_blank"
@@ -31,7 +30,7 @@ const Footer: NextPage = () => {
             >
               <Card
                 raised={true}
-                className="w-4/5 mt-5 rounded bg-primary text-white"
+                className="w-11/12 mt-5 mx-auto rounded bg-primary text-white"
               >
                 <CardContent color="inherit">
                   <Toolbar>
@@ -61,7 +60,7 @@ const Footer: NextPage = () => {
             >
               <Card
                 raised={true}
-                className="w-4/5 mt-5 rounded bg-primary text-white"
+                className="w-11/12 mt-5 mx-auto rounded bg-primary text-white"
               >
                 <CardContent color="inherit">
                   <Toolbar>
@@ -85,7 +84,7 @@ const Footer: NextPage = () => {
             <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
               <Card
                 raised={true}
-                className="w-4/5 mt-5 rounded bg-primary text-white"
+                className="w-11/12 mt-5 mx-auto rounded bg-primary text-white"
               >
                 <CardContent color="inherit">
                   <Toolbar>
