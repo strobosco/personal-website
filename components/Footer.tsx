@@ -14,7 +14,7 @@ const Footer: NextPage = () => {
         <Container
           maxWidth="unset"
           boxShadow="0 4px 8px 0 rgba(0, 0, 0, 0.5)"
-          className="bg-card w-11/12 mx-auto rounded text-white"
+          className="bg-card w-11/12 pb-5 mx-auto rounded text-white"
         >
           <h4 className="text-center">Connect with me!</h4>
           <Container
