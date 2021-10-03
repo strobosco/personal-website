@@ -13,7 +13,7 @@ const NavBar: NextPage = () => {
       <Box className="bg-primary">
         <Flex
           as="nav"
-          className="w-1/1 p-8 bg-primary flex flex-col sm:flex-row"
+          className="w-11/12 mx-auto p-8 bg-primary flex flex-col sm:flex-row"
           align="center"
           justify="space-between"
           wrap="wrap"

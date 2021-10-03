@@ -14,7 +14,7 @@ const Projects: NextPage = () => {
         <Container
           maxWidth="unset"
           boxShadow="0 4px 8px 0 rgba(0, 0, 0, 0.5)"
-          className="bg-card w-11/12 mx-auto rounded text-white"
+          className="bg-card w-11/12 pb-5 mx-auto rounded text-white"
         >
           <h4>Projects</h4>
           <Container
@@ -78,7 +78,7 @@ const Projects: NextPage = () => {
           <Container
             maxWidth="unset"
             boxShadow="0 4px 8px 0 rgba(0, 0, 0, 0.5)"
-            className="bg-primary w-9/10 mb-5 rounded"
+            className="bg-primary w-9/10 pb-5 rounded"
           >
             <Flex align="center" justify="space-between" wrap="wrap">
               <h3>Boids</h3>
