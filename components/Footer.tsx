@@ -1,100 +1,84 @@
 import React from "react";
 
+import { Box, Flex, Container, IconButton, Icon } from "@chakra-ui/react";
+
+import { SiLinkedin } from "react-icons/si";
+import { GrGithub } from "react-icons/gr";
+
 import type { NextPage } from "next";
-
-import {
-  Box,
-  Typography,
-  Card,
-  CardContent,
-  Toolbar,
-  IconButton,
-} from "@mui/material";
-
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GitHubIcon from "@mui/icons-material/GitHub";
 
 const Footer: NextPage = () => {
   return (
     <footer>
-      <Box className="mt-8 mb-6 mx-auto text-white font-body text-footer">
-        <Card raised={true} className="bg-card w-11/12 mx-auto rounded">
-          <CardContent className="text-white font-body">
-            <Typography variant="h3" className="text-center">
-              {"Connect with me!"}
-            </Typography>
+      <Box className="bg-primary mb-10 ml-23 text-heading font-body">
+        <Container
+          maxWidth="unset"
+          boxShadow="0 4px 8px 0 rgba(0, 0, 0, 0.5)"
+          className="bg-card w-11/12 mx-auto rounded text-white"
+        >
+          <h4 className="text-center">Connect with me!</h4>
+          <Container
+            maxWidth="unset"
+            boxShadow="0 4px 8px 0 rgba(0, 0, 0, 0.5)"
+            className="bg-primary w-9/10 mb-5 rounded"
+          >
+            <a
+              href="https://github.com/strobosco/strobo"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <Flex align="center" justify="space-between" wrap="wrap">
+                <h3>GitHub</h3>
+                <IconButton
+                  aria-label="GitHub"
+                  as="a"
+                  href="https://github.com/strobosco/strobo"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  color="white"
+                  icon={<Icon as={GrGithub} className="text-icon bg-primary" />}
+                />
+              </Flex>
+            </a>
+          </Container>
+          <Container
+            maxWidth="unset"
+            boxShadow="0 4px 8px 0 rgba(0, 0, 0, 0.5)"
+            className="bg-primary w-9/10 mb-5 rounded"
+          >
             <a
               href="https://linkedin.com/in/niccolonobili"
-              target="_blank"
               rel="noopener noreferrer"
-            >
-              <Card
-                raised={true}
-                className="w-11/12 mt-5 mx-auto rounded bg-primary text-white"
-              >
-                <CardContent color="inherit">
-                  <Toolbar>
-                    <Typography variant="h4" className="ml-0">
-                      LinkedIn
-                    </Typography>
-                    <IconButton
-                      href="https://linkedin.com/in/niccolonobili"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      size="large"
-                      edge="start"
-                      color="inherit"
-                      aria-label="menu"
-                      className="absolute right-0"
-                    >
-                      <LinkedInIcon className="text-footerIcon" />
-                    </IconButton>
-                  </Toolbar>
-                </CardContent>
-              </Card>
-            </a>
-            <a
-              href="https://github.com/strobosco"
               target="_blank"
-              rel="noopener noreferrer"
             >
-              <Card
-                raised={true}
-                className="w-11/12 mt-5 mx-auto rounded bg-primary text-white"
-              >
-                <CardContent color="inherit">
-                  <Toolbar>
-                    <Typography variant="h4" className="ml-0">
-                      GitHub
-                    </Typography>
-                    <IconButton
-                      href="https://github.com/strobosco"
-                      size="large"
-                      edge="start"
-                      color="inherit"
-                      aria-label="menu"
-                      className="absolute right-0"
-                    >
-                      <GitHubIcon className="text-footerIcon" />
-                    </IconButton>
-                  </Toolbar>
-                </CardContent>
-              </Card>
+              <Flex align="center" justify="space-between" wrap="wrap">
+                <h3>LinkedIn</h3>
+                <IconButton
+                  aria-label="LinkedIn"
+                  as="a"
+                  href="https://linkedin.com/in/niccolonobili"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  color="white"
+                  icon={
+                    <Icon as={SiLinkedin} className="text-icon bg-primary" />
+                  }
+                />
+              </Flex>
             </a>
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-              <Card
-                raised={true}
-                className="w-11/12 mt-5 mx-auto rounded bg-primary text-white"
-              >
-                <CardContent color="inherit">
-                  <Toolbar>
-                    <Typography variant="h4">Resume</Typography>
-                  </Toolbar>
-                </CardContent>
-              </Card>
+          </Container>
+          <Container
+            maxWidth="unset"
+            boxShadow="0 4px 8px 0 rgba(0, 0, 0, 0.5)"
+            className="bg-primary w-9/10 mb-5 rounded"
+          >
+            <a href="/resume.pdf" rel="noopener noreferrer" target="_blank">
+              <Flex align="center" justify="space-between" wrap="wrap">
+                <h3>Resume</h3>
+              </Flex>
             </a>
-          </CardContent>
-        </Card>
+          </Container>
+        </Container>
       </Box>
     </footer>
   );

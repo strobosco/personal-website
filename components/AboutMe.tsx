@@ -1,29 +1,30 @@
 import React from "react";
 
+import { Box, Container } from "@chakra-ui/react";
+
 import type { NextPage } from "next";
-import { Typography, Box, Card, CardContent } from "@mui/material";
 
 const AboutMe: NextPage = () => {
   return (
     <>
-      <Box className="mt-10 ml-23">
-        <Card raised={true} className="bg-card w-11/12 mx-auto rounded">
-          <CardContent className="text-white">
-            <Typography variant="h3" className="font-body text-heading">
-              About Me
-            </Typography>
-            <Typography variant="body1" className="mt-2 text-p font-body">
-              I am a Pitt student who is looking to enter the world of software!
-              My passions include:
-              <ul>
-                <li>Software Development</li>
-                <li>Cloud Computing</li>
-                <li>Cybersecurity</li>
-                <li>Intelligent Systems</li>
-              </ul>
-            </Typography>
-          </CardContent>
-        </Card>
+      <Box className="pl-23 bg-primary font-body text-white">
+        <Container
+          maxWidth="unset"
+          boxShadow="0 4px 8px 0 rgba(0, 0, 0, 0.5)"
+          className="bg-card w-11/12 mx-auto rounded p-4"
+        >
+          <h3 className="font-body text-heading">About Me</h3>
+          <p className="mt-2 text-p font-body">
+            I am a Pitt student who is looking to enter the world of software!
+            My passions include:
+          </p>
+          <ul>
+            <li>Software Development</li>
+            <li>Cloud Computing</li>
+            <li>Cybersecurity</li>
+            <li>Intelligent Systems</li>
+          </ul>
+        </Container>
       </Box>
     </>
   );

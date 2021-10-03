@@ -1,18 +1,15 @@
 import "../styles/globals.css";
 import "tailwindcss/tailwind.css";
 
-import { StylesProvider } from "@material-ui/core/styles";
-import { createTheme } from "@mui/material/styles";
-
 import type { AppProps } from "next/app";
 
-function MyApp({ Component, pageProps }: AppProps) {
-  const theme = createTheme({});
+import { ChakraProvider } from "@chakra-ui/react";
 
+function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <StylesProvider injectFirst={true} disableGeneration={true}>
+    <ChakraProvider>
       <Component {...pageProps} />
-    </StylesProvider>
+    </ChakraProvider>
   );
 }
 export default MyApp;

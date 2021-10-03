@@ -1,11 +1,7 @@
-import AppBar from "@mui/material/AppBar";
-import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
-import IconButton from "@mui/material/IconButton";
-import Box from "@mui/system/Box";
+import { Box, Flex, Text, IconButton, Icon } from "@chakra-ui/react";
 
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GitHubIcon from "@mui/icons-material/GitHub";
+import { SiLinkedin } from "react-icons/si";
+import { GrGithub } from "react-icons/gr";
 
 import React from "react";
 
@@ -15,37 +11,41 @@ const NavBar: NextPage = () => {
   return (
     <>
       <Box className="bg-primary">
-        <AppBar className="static bg-primary">
-          <Toolbar className="bg-primary">
-            <Box className="flex flex-col sm:flex-row m-auto w-11/12">
-              <Typography className="text-heading font-body">
-                Niccolo Nobili
-              </Typography>
-              <Box className=" mx-auto sm:mr-0 sm:ml-auto">
-                <IconButton
-                  href="https://linkedin.com/in/niccolonobili"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  size="large"
-                  color="inherit"
-                  aria-label="LinkedIn"
-                >
-                  <LinkedInIcon className="text-icon" />
-                </IconButton>
-                <IconButton
-                  href="https://github.com/strobosco"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  size="large"
-                  color="inherit"
-                  aria-label="GitHub"
-                >
-                  <GitHubIcon className="text-icon" />
-                </IconButton>
-              </Box>
-            </Box>
-          </Toolbar>
-        </AppBar>
+        <Flex
+          as="nav"
+          className="w-1/1 p-8 bg-primary flex flex-col sm:flex-row"
+          align="center"
+          justify="space-between"
+          wrap="wrap"
+        >
+          <Box>
+            <Text className="text-heading text-white font-body">
+              Niccolo Nobili
+            </Text>
+          </Box>
+          <Box className="">
+            <IconButton
+              className="mx-4"
+              aria-label="LinkedIn"
+              as="a"
+              href="https://linkedin.com/in/niccolonobili"
+              rel="noopener noreferrer"
+              target="_blank"
+              color="white"
+              icon={<Icon as={SiLinkedin} className="text-icon bg-primary" />}
+            />
+            <IconButton
+              className="mx-4"
+              aria-label="GitHub"
+              as="a"
+              href="https://github.com/strobosco"
+              rel="noopener noreferrer"
+              target="_blank"
+              color="white"
+              icon={<Icon as={GrGithub} className="text-icon bg-primary" />}
+            />
+          </Box>
+        </Flex>
       </Box>
     </>
   );

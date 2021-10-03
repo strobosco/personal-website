@@ -1,4 +1,5 @@
 module.exports = {
+  important: true,
   purge: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
@@ -14,7 +15,7 @@ module.exports = {
     fontSize: {
       heading: "46px",
       footer: "40px",
-      icon: "46px",
+      icon: "50px",
       footerIcon: "60px",
       p: "20px",
     },
@@ -22,7 +23,7 @@ module.exports = {
       body: '"Gill Sans"',
     },
     borderRadius: {
-      DEFAULT: "5px",
+      DEFAULT: "10px",
     },
     extend: {},
   },
