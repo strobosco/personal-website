@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Box, Container, Flex, Center, Divider } from "@chakra-ui/react";
+import { Box, Container, Flex, Divider } from "@chakra-ui/react";
 
 import type { NextPage } from "next";
 
@@ -18,27 +18,23 @@ const AboutMe: NextPage = () => {
             I am a Pitt student who is looking to enter the world of software!
             My passions include:
           </p>
-          <Flex flexDir="row" className="py-8 text-p text-center items-center">
+          <Flex className="flex flex-col sm:flex-row py-8 text-p text-center items-center">
             <Container>
               <p>Software Development</p>
             </Container>
-            <Center height="50px">
-              <Divider orientation="vertical" />
-            </Center>
+            <Divider />
             <Container>
               <p>Cloud Computing</p>
             </Container>
-            <Center height="50px">
-              <Divider orientation="vertical" />
-            </Center>
+            <Divider />
             <Container>
               <p>Cybersecurity</p>
             </Container>
-            <Center height="50px">
-              <Divider orientation="vertical" />
-            </Center>
+            <Divider />
             <Container>
-              <p>Intelligent Systems</p>
+              <p>
+                Intelligent <br /> Systems
+              </p>
             </Container>
           </Flex>
         </Container>
