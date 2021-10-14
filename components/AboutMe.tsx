@@ -19,19 +19,19 @@ const AboutMe: NextPage = () => {
             My passions include:
           </p>
           <Flex className="flex flex-col sm:flex-row py-8 text-p text-center items-center">
-            <Container>
+            <Container className="py-1 sm:py-0">
               <p>Software Development</p>
             </Container>
-            <Divider />
-            <Container>
+            <Divider className="w-9/12 py-1 sm:py-0" />
+            <Container className="py-1 sm:py-0">
               <p>Cloud Computing</p>
             </Container>
-            <Divider />
-            <Container>
+            <Divider className="w-9/12 py-1 sm:py-0" />
+            <Container className="py-1 sm:py-0">
               <p>Cybersecurity</p>
             </Container>
-            <Divider />
-            <Container>
+            <Divider className="w-9/12 py-1 sm:py-0" />
+            <Container className="py-1 sm:py-0">
               <p>
                 Intelligent <br /> Systems
               </p>
