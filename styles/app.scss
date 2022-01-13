@@ -4,6 +4,8 @@
 @import "./variables.scss";
 
 * {
+  box-sizing: border-box;
+  margin: 0;
   background-color: $background-color;
   color: $text-color;
 }
