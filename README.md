@@ -1,7 +1,17 @@
-# Personal Portflio Website
+Portfolio website that showcases all I've done.
 
-This website will showcase all my professional work experience, side-projects, and fun things I do. As of right now it's serving as an online resumè that contains my side projects as well as my social media links and paper resumè.
+![Homepage](images/homepage.png)
 
-This webiste was inspired by [Alexander Grattan's](https://github.com/GameDog9988) personal website and I thank him for the guidance and help he has given me so far.
+## Getting Started
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
