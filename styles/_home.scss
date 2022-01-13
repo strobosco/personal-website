@@ -1,5 +1,10 @@
 @import "./variables.scss";
 
+.heading {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
 .nav-bar {
   display: flex;
   flex-direction: row;
@@ -17,6 +22,107 @@
 
       svg {
         font-size: 60px;
+      }
+    }
+  }
+}
+
+@mixin padding {
+  padding: 8px;
+}
+
+.section {
+  margin-top: 40px;
+  padding: 16px;
+  border: 3px solid rgba(255, 255, 255, 0.15);
+  border-radius: 3px;
+
+  .about-me-list {
+    display: flex;
+    flex-direction: row;
+    @media (max-width: $breakpoint-phone) {
+      flex-direction: column;
+    }
+    margin-top: 2rem;
+    p {
+      font-size: 1.2rem;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      @include padding();
+    }
+  }
+
+  .project-card {
+    display: flex;
+    flex-direction: row;
+    @media (max-width: $breakpoint-phone) {
+      flex-direction: column;
+    }
+    margin-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+
+    .project-description {
+      width: 80%;
+      padding: 1.25rem;
+      font-weight: 200;
+
+      .project-title {
+        padding-bottom: 1rem;
+        font-weight: bold;
+        font-size: 1.5rem;
+      }
+      .project-text {
+        font-size: 0.875rem;
+      }
+      .project-tools {
+        padding-top: 1rem;
+        font-style: italic;
+      }
+    }
+    .button-div {
+      align-self: center;
+      margin-left: auto;
+      margin-right: auto;
+      max-height: fit-content;
+
+      .code-button {
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        text-decoration: none;
+        padding: 0.5rem;
+      }
+    }
+  }
+
+  .footer-text {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+      svg {
+        font-size: 60px;
+        @media (max-width: $breakpoint-phone) {
+          font-size: 30px;
+          padding: 5px;
+        }
+      }
+      p {
+        font-size: 1.75rem;
       }
     }
   }
