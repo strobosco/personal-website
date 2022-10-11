@@ -3,9 +3,10 @@ const AboutMe = () => {
     <div className="section">
       <p className="heading">About me</p>
       <p>
-        I'm a student at the University of Pittsburgh who's exploring everything
-        software related. Here's some of the things I been studying and really
-        like:
+        I'm a Computer Science major at the University of Pittsburgh. I'm
+        currently very interested in all things software. I have previous
+        internship experience and a strong academic foundation. Some of my
+        interests are:
       </p>
       <div className="about-me-list">
         <p>Software Development</p>

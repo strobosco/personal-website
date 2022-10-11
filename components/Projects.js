@@ -33,7 +33,8 @@ const Projects = () => {
             Google Cloud using Kuberentes and Docker before it became obsolete.
           </p>
           <p className="project-tools">
-            Tools: React, GraphQL, Express.js, Next.js, Redis, K8, Docker
+            Tools: React, GraphQL, Express.js, Next.js, Redis, Kubernetes,
+            Docker
           </p>
         </div>
         <div className="button-div">
