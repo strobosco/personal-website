@@ -32,6 +32,13 @@ const Work = () => {
             </ul>
           </p>
         </div>
+        <div className="button-div">
+          <img
+            src="./proofpoint-logo.svg"
+            alt="Proofpoint Logo"
+            className="proofpoint-logo"
+          />
+        </div>
       </div>
     </div>
   );
