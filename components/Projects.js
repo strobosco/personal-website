@@ -27,14 +27,15 @@ const Projects = () => {
       </div>
       <div className="project-card">
         <div className="project-description">
-          <p className="project-title">Strobo</p>
+          <p className="project-title">Reddit Clone</p>
           <p className="project-text">
-            Reddit clone implemented using fullstack technologies. Deployed on
-            Google Cloud using Kuberentes and Docker before it became obsolete.
+            Reddit clone implemented using full-stack technologies. Deployed on
+            Google Cloud Platform, and accessible from the open internet, using
+            cloud computing technologies.
           </p>
           <p className="project-tools">
             Tools: React, GraphQL, Express.js, Next.js, Redis, Kubernetes,
-            Docker
+            Docker, Nginx
           </p>
         </div>
         <div className="button-div">
@@ -52,7 +53,7 @@ const Projects = () => {
         <div className="project-description">
           <p className="project-title">Boids</p>
           <p className="project-text">
-            Golang implementation of Craig Reynold's boids simulatio. Inspired
+            Golang implementation of Craig Reynold's boids simulation. Inspired
             by my father.
           </p>
           <p className="project-tools">Tools: Golang</p>

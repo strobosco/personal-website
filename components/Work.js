@@ -9,21 +9,25 @@ const Work = () => {
           </p>
           <p className="project-text">
             Worked as a SWE intern at Proofpoint as a part of the Business
-            Applications team:
+            Applications team for one year. During that time I was introduced to
+            the world of professional software development as well as the realm
+            of cybersecurity. I enjoyed my time at Proofpoint, and it was an
+            immense learning experience, both personally and professionaly. Some
+            of my accomplishments during my year at the company are:
           </p>
           <p className="project-tools">
             <ul>
               <li>
+                Refactored a query-based app using MySQL, React, Node, Perl,
+                DBI, DBIx
+              </li>
+              <li>
                 Restructured internal documentation and wrote new, extensive
-                documentation for new applications
+                documentation for new projects
               </li>
               <li>
-                Developed a new integration for React, allowing its use in the
-                current development environment
-              </li>
-              <li>
-                Developed an automation for alerts, reducing wait time from days
-                to hours
+                Integrated systems into an automated build process as to deploy
+                it within a larger service
               </li>
             </ul>
           </p>
