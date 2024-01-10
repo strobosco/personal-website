@@ -50,6 +50,10 @@
       margin-right: auto;
       text-align: center;
       @include padding();
+      &:hover {
+        background-color: #282828;
+        border-radius: 3px;
+      }
     }
   }
 
@@ -63,6 +67,10 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
     border-radius: 3px;
 
+    &:hover {
+      background-color: #282828;
+    }
+
     .project-description {
       width: 80%;
       @media (max-width: $breakpoint-phone) {
@@ -70,6 +78,11 @@
       }
       padding: 1.25rem;
       font-weight: 200;
+      background-color: inherit;
+
+      & > * {
+        background-color: inherit;
+      }
 
       .project-title {
         padding-bottom: 1rem;
@@ -82,9 +95,14 @@
       .project-tools {
         padding-top: 1rem;
         font-style: italic bold;
+
+        li {
+          background-color: inherit;
+        }
       }
     }
     .button-div {
+      background-color: inherit;
       align-self: center;
       margin-left: auto;
       margin-right: auto;

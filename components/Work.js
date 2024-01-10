@@ -9,28 +9,34 @@ const Work = () => {
           </p>
           <p className="project-text">
             Worked as a SWE intern at Proofpoint as a part of the Business
-            Applications team for one year. During that time I was introduced to
-            the world of professional software development as well as the realm
-            of cybersecurity. I enjoyed my time at Proofpoint, and it was an
-            immense learning experience, both personally and professionaly. Some
-            of my accomplishments during my year at the company are:
+            Applications team. My internship lasted one calendar year.
+            Throughout my internship I developed tools for internal usage. I was
+            also introduced to the world of professional software development as
+            well as the field of cybersecurity. I enjoyed my time working at
+            Proofpoint, and it was an immense learning experience, both
+            personally and professionaly. Some of my accomplishments during my
+            year at the company are:
           </p>
-          <p className="project-tools">
-            <ul>
-              <li>
-                Refactored a query-based app using MySQL, React, Node, Perl,
-                DBI, DBIx
-              </li>
-              <li>
-                Restructured internal documentation and wrote new, extensive
-                documentation for new projects
-              </li>
-              <li>
-                Integrated systems into an automated build process as to deploy
-                it within a larger service
-              </li>
-            </ul>
-          </p>
+          <ul className="project-tools">
+            <li>
+              Developed a real time querying application using MySQL, React,
+              Node, Perl, DBI, DBIx while following basic design principles and
+              ensuring the efficiency and reliability of the app.
+            </li>
+            <li>
+              Restructured internal documentation concerning the team's work as
+              well writing new, extensive documentation for the projects I was
+              working on.
+            </li>
+            <li>
+              Integrated my project into the company's CI/CD pipeline as well as
+              oversaw its push to production
+            </li>
+            <li>
+              Helped onboard new members of the team my creating helpful guides
+              concerning team structure, tech stack, and helpful contacts
+            </li>
+          </ul>
         </div>
         <div className="button-div">
           <img
