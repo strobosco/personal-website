@@ -46,6 +46,30 @@ const Work = () => {
           />
         </div>
       </div>
+      <div className="project-card">
+        <div className="project-description">
+          <p className="project-title">
+            Pittsburgh Experimental Research Group - Research Associate
+          </p>
+          <p className="project-text">
+            Working as a research associate at PERG. Currently working on an
+            independent project, mentored by my professor and a postgraduate
+            student. The project focuses on creating a wearable device that will
+            allow for reconstruction of a 3D avatar with full facial expression
+            tracking over the entire face. The main application that is being
+            targeted is use of this technology is AR/VR scenarios to allow users
+            to view avatars of fellow players/users and create a better user
+            experience. This project expands on current research and
+            incorporates use of both hardware and software, such as:
+          </p>
+          <ul className="project-tools">
+            <li>
+              EMG Sensors, Arduino Programming, Signal Processing, Python, Wired
+              & Wireless Communication
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };

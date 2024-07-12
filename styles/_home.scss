@@ -50,10 +50,6 @@
       margin-right: auto;
       text-align: center;
       @include padding();
-      &:hover {
-        background-color: #282828;
-        border-radius: 3px;
-      }
     }
   }
 
